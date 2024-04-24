@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freePNG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        .search-container {
+          text-align: center;
+          margin-top: 50px;
+        }
+        input[type=text] {
+          width: 200px;
+          padding: 10px;
+          margin: 0 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          font-size: 16px;
+        }
+        button {
+          padding: 10px 20px;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 16px;
+        }
+        button:hover {
+          background-color: #0056b3;
+        }
+        #result {
+          margin-top: 20px;
+          font-size: 18px;
+          text-align: center;
+        }
+      </style>
+
+
+    <div class="nav">
+        <div class="logo">
+            <img  src="img/logo.png" alt="">
+
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+          </div>
+          
+          <div id="result"></div>
+
+
+        <div class="buttons">
+            <a href="http://">PNG Images</a>
+            <a href="http://"> Backgrounds </a>
+            <a href="http://"> About </a>
+        </div>
+        <div class="colorful">
+            <a style="background-color: rgb(0, 9, 135);" href="">Enterprice</a>
+            <a style="background-color: rgb(192, 192, 0);" href="">Pricing</a>
+            <a style="background-color: rgb(255, 86, 115);" href="">93% OFF</a>
+        </div>
+        <div class="login">
+            <a style="color: black; background-color: rgb(213, 213, 213);" href="">Log in</a>
+            <a href="">Sign up</a>
+        </div>
+    </div>
+
+    <div class="cat">
+        <h2> Categories </h2>
+        <div class="cate">
+            <a href="">Cars</a>
+            <a href="">Sports</a>
+            <a href="">Animals</a>
+            <a href="">Things</a>
+            <a href="">Coples</a>
+            <a href="">Lovers</a>
+            <a href="">Girl</a>
+            <a href="">Boy</a>
+            <a href="">Child</a>
+            <a href="">SUV</a>
+            <a href="">Sex</a>
+            <a href="">XXX</a>
+            <a href="">Student</a>
+            <a href="">Army</a>
+            <a href="">Bussines</a>
+            <a href="">Pose</a>
+            <a href="">Sunny Leon</a>
+            <a href="">Actors</a>
+            <a href="">Kiss</a>
+            <a href="">Fight</a>
+            <a href="">WWE</a>
+            <a href="">UFC</a>
+            <a href="">Cricket</a>
+            <a href="">Football</a>
+            <a href="">NBA</a>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/pg1.png" alt="">
+        
+            <button onclick="downloadFile('img/pg1.png', 'image.png')"> 
+                Download
+             </button>
+         
+             <button    onclick="downloadFile('img/pgm1.png', 'image.png')">
+                Download with Watermark
+            </button>
+</div>
+        <div class="card">
+            <img src="img/pg2.png" alt="">
+
+            <button onclick="downloadFile('img/pg2.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm2.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg3.png" alt="">
+
+            <button onclick="downloadFile('img/pg3.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm3.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg4.png" alt="">
+
+            <button onclick="downloadFile('img/pg4.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm4.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg5.png" alt="">
+
+            <button onclick="downloadFile('img/pg5.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm5.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg6.png" alt="">
+
+            <button onclick="downloadFile('img/pg6.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm6.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <!-- <div class="card">
+            <img src="img/pgm7.png" alt="">
+
+            <button onclick="downloadFile('img/pg7.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm7.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div> -->
+        <div class="card">
+            <img src="img/pg8.png" alt="">
+
+            <button onclick="downloadFile('img/pg8.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm8.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg9.png" alt="">
+
+            <button onclick="downloadFile('img/pg9.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm9.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg10.png" alt="">
+
+            <button onclick="downloadFile('img/pg10.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm10.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg11.png" alt="">
+
+            <button onclick="downloadFile('img/pg11.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm11.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg12.png" alt="">
+
+            <button onclick="downloadFile('img/pg12.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm12.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg13.png" alt="">
+
+            <button onclick="downloadFile('img/pg13.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm13.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pg14.png" alt="">
+
+            <button onclick="downloadFile('img/pg14.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm14.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pgm15.png" alt="">
+
+            <button onclick="downloadFile('img/pg15.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm15.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <div class="card">
+            <img src="img/pgm16.png" alt="">
+
+            <button onclick="downloadFile('img/pg16.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm16.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <!-- <div class="card">
+            <img src="img/pgm17.png" alt="">
+
+            <button onclick="downloadFile('img/pg17.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm17.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div> -->
+        <div class="card">
+            <img src="img/pgm18.png" alt="">
+
+            <button onclick="downloadFile('img/pg18.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm18.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div>
+        <!-- <div class="card">
+            <img src="img/pgm19.png" alt="">
+
+            <button onclick="downloadFile('img/pg19.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm19.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div> -->
+        <!-- <div class="card">
+            <img src="img/pgm20.png" alt="">
+
+            <button onclick="downloadFile('img/pg20.png', 'image.png')"> 
+                Download
+             </button>
+           
+             <button    onclick="downloadFile('img/pgm20.png', 'image.png')">
+                    Download with Watermark
+                </button>
+</div> -->
+</div>
+
+    <div class="button">
+        <a style="background-color: rgb(0, 181, 0);" href="http://">Next</a>
+        <a href="http://">Back</a>
+    </div>
+
+    <footer>
+        <div class="left">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="social">
+                <img src="img/social/1.png" alt="">
+                <img src="img/social/2.png" alt="">
+                <img src="img/social/3.png" alt="">
+                <img src="img/social/4.png" alt="">
+            </div>
+            <div class="lan">
+<h4>©️2017-2024 Pngtree -All Rights Reserved.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+<div class="png">
+<h2 style="color: black;">FREEPNG.COM</h2>
+<h3>About us</h3>
+<h3>Partnerships</h3>
+<h3>Affilate Program</h3>
+<h3>Contributor Project</h3>
+<h3>Popular Seraches</h3>
+<h3>Update</h3>
+<h3>New Background</h3>
+<h3>Slidesdocs</h3>
+</div>
+<div class="help">
+<h2 style="color: black;">HELP</h2>
+<h3>Help Center</h3>
+<h3>Contact us</h3>
+</div>
+<div class="legal">
+<h2 style="color: black;" >LEGAL</h2>
+<h3>Terms of Services</h3>
+<h3>Privacy Policy</h3>
+<h3>Copyright Infrigement Notification</h3>
+<h3>Cookies Policy</h3>
+<h3>Licence Terms</h3>
+<h3>Refund Policy</h3>
+<h3>Intellectual Property Rights</h3>
+</div>
+    </footer>
+
+    <script>
+        function downloadFile(fileUrl, fileName) {
+          fetch(fileUrl)
+            .then(response => response.blob())
+            .then(blob => {
+              var a = document.createElement('a');
+              a.href = window.URL.createObjectURL(blob);
+              a.download = fileName;
+              document.body.appendChild(a);
+              a.click();
+              window.URL.revokeObjectURL(a.href);
+              document.body.removeChild(a);
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
+        }
+        </script>
+
+<script>
+    function search() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('searchInput');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName('li');
+    
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+
+</body>
+</html>

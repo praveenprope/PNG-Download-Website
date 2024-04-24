@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 96, 175);
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.nav .logo {
+    margin-left: 20px;
+    
+}
+
+.nav .logo img {
+    width: 120px;
+    height: 90px;
+}
+
+.nav .buttons {
+    margin-right:25px ;
+}
+
+.nav .buttons a {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.nav .colorful {
+    margin-right: 80px;
+}
+
+.nav .colorful a {
+color: white;
+padding: 10px;
+border-radius: 10px;
+}
+
+.nav .login {
+    margin-right: 80px;
+}
+
+.nav .login a {
+    background-color: rgb(0, 189, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.cat {
+    background-color: rgb(79, 129, 177);
+    color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+.cat .cate  {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cat .cate a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+
+.container .card {
+    width: 300px;
+    height: 200px;
+    margin-top: 62px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .card img {
+    width: 100%;
+    
+}
+
+
+.container .card a {
+    background-color: rgb(255, 86, 115);
+    width: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    border-radius: 20px;
+    padding: 4px;
+    border: none;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card a input {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .card button {
+    border: none;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.container .card button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button a {
+    color: white;
+    background-color: rgb(255, 0, 136);
+    margin: 2px 20px 2px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 324px;
+    margin-top: 40px;
+}
+
+.left {
+    background-color: rgb(236, 236, 236);
+    width: 50%;
+}
+
+.left .logo img {
+    width: 160px;
+    margin-left: 12px;
+}
+
+.left .social img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.left .lan {
+    color: black;
+    margin-left: 12px;
+}
+
+.right {
+    background-color: rgb(236, 236, 236);
+    width: 50%;
+    color: rgb(111, 109, 109);
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
